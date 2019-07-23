@@ -18,7 +18,7 @@ let secretCode = [];
 const password = ['KeyY', 'KeyT', 'KeyN', 'KeyJ', 'KeyK', 'KeyJ', 'KeyU', 'KeyB', 'KeyZ'];
 
 function showSecretCode(event) {
-  if(event.code === 'KeyY') { // РАЗОБРАТЬСЯ В ПЕРВОМ IF`е
+  if(event.code === 'KeyY') {
     secretCode = [];
   }
   secretCode.push(event.code);
