@@ -1,8 +1,5 @@
 'use strict';
 
-// ПЕРЕДЕЛАТЬ ЗАДАЧУ ПО ТЕХ.ТРЕБОВАНИЕМ И БЕЗ КОСТЫЛЕЙ!!!
-
-
 const container = document.getElementById('tabs');
 const tabs = document.querySelector('.tabs-nav');
 const firstLi = document.getElementsByTagName('li')[0];
